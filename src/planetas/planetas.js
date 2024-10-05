@@ -9,7 +9,8 @@ const planetNames = {
     planet4: 'Planeta 4',
     planet5: 'Planeta 5',
     planet6: 'Planeta 6',
-    planet7: 'Planeta 7'
+    planet7: 'Planeta 7',
+    planet8: 'Planeta 8'
 };
 
 planets.forEach(planet => {

@@ -126,11 +126,8 @@ body::before {
     animation: orbit6 15s linear infinite; /* Aumenta a duração */
     max-width: 120px;
     max-height: 120px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 /* -------------------------------------*/
