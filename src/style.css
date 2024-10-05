@@ -28,6 +28,18 @@
 /* ----------------------------------------------*/
 
 
+.page{
+    display: block;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+body{
+    height: 100vw;
+    background-color: #000000;
+}
+
 /* CONFIG CABECALHO */
 .img_logo{
     width: 250px;
