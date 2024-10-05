@@ -136,6 +136,8 @@ body{
 
 /* ----------------------------------------------*/
 
+
+
 /* ---------------------------------------------- */
 /* EXPLORAR */
 /* ----------------------------------------------*/
@@ -145,38 +147,30 @@ body{
     display: flex;
     background-color:#000000;
     background-size: cover;
-    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    height: 900px;
     color: #fff;
-    height: 872px;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Red hat display', sans-serif;
 }
 
-.HubExplorar .info{
-    margin: auto 0 auto 40px;   
+.solar-system{
+    max-height: 100%;
+    max-height: 100%;
+
+}
+.info {
+    display: flex;
     justify-content: center;
-}   
-
-.HubExplorar .info-content .text-1{
-    font-size: 27px;
-}
-
-.HubExplorar .info-content .text-2{
-    font-size: 75px;
-    font-weight: 500;
-    margin-left: -3px;
-}
-
-.HubExplorar .info-content .text-2 span{
-    color: #00bf63;
-    font-weight: 500;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .info-content {
     width: 40%;
     height: 300px;
-    text-align: right;
-    float: right;
     justify-content: center;
 }
 
@@ -184,6 +178,10 @@ body{
 /* ---------------------------------------------- */
 
 /* ----------------------------------------------*/
+
+
+
+
 
 /* ---------------------------------------------- */
 /* SOBRE */
@@ -284,3 +282,134 @@ body{
 .right {
     padding-left: 20px;
 }
+
+/* ---------------------------------------------- */
+
+/* ----------------------------------------------*/
+
+
+
+/* ---------------------------------------------- */
+/* PLANETAS */
+/* ----------------------------------------------*/
+
+.solar-system {
+    display: flexbox;
+    position: relative;
+    width: 600px; /* Aumenta a largura do sistema solar */
+    height: 800px; /* Aumenta a altura do sistema solar */
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px; /* Tamanho do sol */
+    height: 60px; /* Tamanho do sol */
+    background-color: yellow;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.planet1 {
+    width: 30px; /* Tamanho do planeta 1 */
+    height: 30px;
+    background-color: blue;
+    animation: orbit1 6s linear infinite; /* Aumenta a duração */
+    transform: translateX(120px);
+}
+
+.planet2 {
+    width: 35px; /* Tamanho do planeta 2 */
+    height: 35px;
+    background-color: green;
+    animation: orbit2 8s linear infinite; /* Aumenta a duração */
+    transform: translateX(190px);
+}
+
+.planet3 {
+    width: 40px; /* Tamanho do planeta 3 */
+    height: 40px;
+    background-color: red;
+    animation: orbit3 7s linear infinite; /* Aumenta a duração */
+    transform: translateX(250px);
+}
+
+.planet4 {
+    width: 45px; /* Tamanho do planeta 4 */
+    height: 45px;
+    background-color: orange;
+    animation: orbit4 9s linear infinite; /* Aumenta a duração */
+    transform: translateX(310px);
+}
+
+.planet5 {
+    width: 50px; /* Tamanho do planeta 5 */
+    height: 50px;
+    background-color: purple;
+    animation: orbit5 11s linear infinite; /* Aumenta a duração */
+    transform: translateX(370px);
+}
+
+.planet6 {
+    width: 55px; /* Tamanho do planeta 6 */
+    height: 55px;
+    background-color: pink;
+    animation: orbit6 13s linear infinite; /* Aumenta a duração */
+    transform: translateX(430px);
+}
+
+.planet7 {
+    width: 60px; /* Tamanho do planeta 7 */
+    height: 60px;
+    background-color: cyan;
+    animation: orbit7 15s linear infinite; /* Aumenta a duração */
+    transform: translateX(490px);
+}
+
+@keyframes orbit1 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(80px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(80px) rotate(0deg); }
+}
+
+@keyframes orbit2 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(110px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(110px) rotate(0deg); }
+}
+
+@keyframes orbit3 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(140px) rotate(0deg); }
+}
+
+@keyframes orbit4 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(170px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(170px) rotate(0deg); }
+}
+
+@keyframes orbit5 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(250px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(250px) rotate(0deg); }
+}
+
+@keyframes orbit6 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(310px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(310px) rotate(0deg); }
+}
+
+@keyframes orbit7 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(390px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(390px) rotate(0deg); }
+}
+
+/* ---------------------------------------------- */
+
+/* ----------------------------------------------*/
+
