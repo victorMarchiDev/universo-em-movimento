@@ -149,7 +149,7 @@ body{
     background-size: cover;
     overflow: hidden;
     position: relative;
-    height: 900px;
+    height: 950px;
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -380,33 +380,33 @@ body{
 }
 
 @keyframes orbit2 {
-    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(110px) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(110px) rotate(0deg); }
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(120px) rotate(0deg); }
 }
 
 @keyframes orbit3 {
-    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(140px) rotate(0deg); }
-}
-
-@keyframes orbit4 {
     0% { transform: translate(-50%, -50%) rotate(0deg) translateX(170px) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg) translateX(170px) rotate(0deg); }
 }
 
+@keyframes orbit4 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(220px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(220px) rotate(0deg); }
+}
+
 @keyframes orbit5 {
-    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(250px) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(250px) rotate(0deg); }
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(280px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(280px) rotate(0deg); }
 }
 
 @keyframes orbit6 {
-    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(310px) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(310px) rotate(0deg); }
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(340px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(340px) rotate(0deg); }
 }
 
 @keyframes orbit7 {
-    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(390px) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(390px) rotate(0deg); }
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(420px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(420px) rotate(0deg); }
 }
 
 /* ---------------------------------------------- */

@@ -1,7 +1,7 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Alinha verticalmente ao centro */
     height: 100vh;
     background-color: #000;
     overflow: hidden;
@@ -14,25 +14,18 @@ body {
 }
 
 .sun img{
-    width: 300px; /* Tamanho do sol */
-    height: 300px;
-    max-width: 150px;
-    max-height: 150px;
-    padding: 150px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .sun {
     position: absolute;
     top: 50%;
     left: 50%;
-    justify-items: center;
- 
-    /*
-    width: 60px; /* Tamanho do sol 
-    height: 60px; /* Tamanho do sol
-    background-color: yellow;
+    width: 60px; /* Tamanho do sol */
+    height: 60px; /* Tamanho do sol */
     border-radius: 50%;
-    */
     transform: translate(-50%, -50%);
 }
 
@@ -106,7 +99,7 @@ body {
     overflow: hidden;
 }
 
-.info-box {
+.info-box-left {
     display: none; /* Inicialmente escondido */
     position: fixed; /* Fixar a caixa no canto esquerdo */
     left: 20px; /* Alinhar à esquerda */
@@ -115,13 +108,28 @@ body {
     width: 300px; /* Defina uma largura fixa ou proporcional */
     background: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
     padding: 20px;
-    border-radius: 70px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
     opacity: 0; /* Inicialmente invisível */
     pointer-events: none; /* Não captura cliques */
     overflow-y: auto; /* Permitir rolagem, se necessário */
 }
 
+.info-box-right {
+    display: none; /* Inicialmente escondido */
+    position: fixed; /* Fixar a caixa no canto esquerdo */
+    right: 20px; /* Alinhar à esquerda */
+    top: 15vh; /* Ajuste para centralizar verticalmente, se necessário */
+    height: 70vh; /* Ocupa 80% da altura da viewport */
+    width: 300px; /* Defina uma largura fixa ou proporcional */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    opacity: 0; /* Inicialmente invisível */
+    pointer-events: none; /* Não captura cliques */
+    overflow-y: auto; /* Permitir rolagem, se necessário */
+}
 
 @keyframes orbit1 {
     0% { transform: translate(-50%, -50%) rotate(0deg) translateX(70px) rotate(0deg); }
