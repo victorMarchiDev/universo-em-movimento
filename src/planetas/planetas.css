@@ -13,14 +13,26 @@ body {
     height: 600px; /* Aumenta a altura do sistema solar */
 }
 
+.sun img{
+    width: 300px; /* Tamanho do sol */
+    height: 300px;
+    max-width: 150px;
+    max-height: 150px;
+    padding: 150px;
+}
+
 .sun {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60px; /* Tamanho do sol */
-    height: 60px; /* Tamanho do sol */
+    justify-items: center;
+ 
+    /*
+    width: 60px; /* Tamanho do sol 
+    height: 60px; /* Tamanho do sol
     background-color: yellow;
     border-radius: 50%;
+    */
     transform: translate(-50%, -50%);
 }
 
@@ -31,53 +43,60 @@ body {
     border-radius: 50%;
 }
 
-.planet1 {
-    width: 30px; /* Tamanho do planeta 1 */
-    height: 30px;
-    background-color: blue;
-    animation: orbit1 6s linear infinite; /* Aumenta a duração */
+.planet1 img{
+    width: 100px; /* Tamanho do planeta 1 */
+    height: 100px;
+    animation: orbit1 30s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
-.planet2 {
-    width: 35px; /* Tamanho do planeta 2 */
-    height: 35px;
-    background-color: green;
+.planet2 img{
+    width: 90px; /* Tamanho do planeta 2 */
+    height: 90px;
     animation: orbit2 8s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
-.planet3 {
-    width: 40px; /* Tamanho do planeta 3 */
-    height: 40px;
-    background-color: red;
+.planet3 img{
+    width: 110px; /* Tamanho do planeta 3 */
+    height: 110px;
     animation: orbit3 7s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
-.planet4 {
-    width: 45px; /* Tamanho do planeta 4 */
-    height: 45px;
-    background-color: orange;
+.planet4 img{
+    width: 145px; /* Tamanho do planeta 4 */
+    height: 145px;
     animation: orbit4 9s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
-.planet5 {
-    width: 50px; /* Tamanho do planeta 5 */
-    height: 50px;
-    background-color: purple;
+.planet5 img{
+    width: 150px; /* Tamanho do planeta 5 */
+    height: 150px;
     animation: orbit5 11s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
-.planet6 {
-    width: 55px; /* Tamanho do planeta 6 */
-    height: 55px;
-    background-color: pink;
+.planet6 img{
+    width: 155px; /* Tamanho do planeta 6 */
+    height: 155px;
     animation: orbit6 13s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
-.planet7 {
-    width: 60px; /* Tamanho do planeta 7 */
-    height: 60px;
-    background-color: cyan;
+.planet7 img{
+    width: 160px; /* Tamanho do planeta 7 */
+    height: 160px;
     animation: orbit7 15s linear infinite; /* Aumenta a duração */
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .info-box-left {
