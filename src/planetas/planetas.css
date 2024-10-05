@@ -42,6 +42,7 @@ body {
     animation: orbit1 30s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .planet2 img{
@@ -50,6 +51,7 @@ body {
     animation: orbit2 8s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .planet3 img{
@@ -58,6 +60,7 @@ body {
     animation: orbit3 7s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .planet4 img{
@@ -66,6 +69,7 @@ body {
     animation: orbit4 9s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .planet5 img{
@@ -74,6 +78,7 @@ body {
     animation: orbit5 11s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .planet6 img{
@@ -82,6 +87,7 @@ body {
     animation: orbit6 13s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .planet7 img{
@@ -90,6 +96,7 @@ body {
     animation: orbit7 15s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    cursor: pointer;
 }
 
 .info-box-left {
