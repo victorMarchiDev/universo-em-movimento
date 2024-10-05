@@ -57,11 +57,8 @@ body::before {
     animation: orbit1 30s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .planet2 img{
@@ -70,11 +67,8 @@ body::before {
     animation: orbit2 8s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .planet3 img{
@@ -83,11 +77,8 @@ body::before {
     animation: orbit3 7s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .planet4 img{
@@ -96,11 +87,8 @@ body::before {
     animation: orbit4 9s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .planet5 img{
@@ -109,11 +97,8 @@ body::before {
     animation: orbit5 11s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .planet6 img{
@@ -122,11 +107,8 @@ body::before {
     animation: orbit6 13s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .planet7 img{
@@ -135,7 +117,6 @@ body::before {
     animation: orbit7 15s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
-<<<<<<< HEAD
     overflow: hidden;
 }
 
@@ -172,9 +153,7 @@ body::before {
     height: 1400px;
     cursor: pointer;
     opacity: 50.0%;
-=======
     cursor: pointer;
->>>>>>> 921469e117e3162a9870fa3686bc72f41e761b37
 }
 
 .info-box-left {
