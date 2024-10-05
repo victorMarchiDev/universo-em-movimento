@@ -33,6 +33,33 @@
     flex-direction: column;
     align-self: center;
     align-items: center;
+
+}
+
+.page .text{
+    margin-left: -80px;
+}
+.page .about{
+    background-color:#1c1c1c;
+    padding: 20px;
+}
+
+.about a{
+    text-decoration: none;
+    position: relative;
+    right: 80px;
+    margin-right: 30px;
+    width: 240px;
+    text-align: center;
+}
+
+.about li{
+    list-style-type: none;
+}
+.page p{
+    margin-left: -80px;
+    max-width: 80%;
+    line-height: 30px;
 }
 
 body{
@@ -320,50 +347,57 @@ body{
 .planet1 {
     width: 30px; /* Tamanho do planeta 1 */
     height: 30px;
-    animation: orbit1 6s linear infinite; /* Aumenta a duração */
+    animation: orbit1 12s linear infinite; /* Aumenta a duração */
     transform: translateX(120px);
 }
 
 .planet2 {
-    width: 35px; /* Tamanho do planeta 2 */
-    height: 35px;
-    animation: orbit2 8s linear infinite; /* Aumenta a duração */
+    width: 50px; /* Tamanho do planeta 2 */
+    height: 50px;
+    animation: orbit2 16s linear infinite; /* Aumenta a duração */
     transform: translateX(190px);
 }
 
 .planet3 {
-    width: 40px; /* Tamanho do planeta 3 */
-    height: 40px;
-    animation: orbit3 7s linear infinite; /* Aumenta a duração */
+    width: 60px; /* Tamanho do planeta 3 */
+    height: 60px;
+    animation: orbit3 10s linear infinite; /* Aumenta a duração */
     transform: translateX(250px);
 }
 
 .planet4 {
-    width: 45px; /* Tamanho do planeta 4 */
-    height: 45px;
-    animation: orbit4 9s linear infinite; /* Aumenta a duração */
+    width: 60px; /* Tamanho do planeta 4 */
+    height: 60px;
+    animation: orbit4 11s linear infinite; /* Aumenta a duração */
     transform: translateX(310px);
 }
 
 .planet5 {
-    width: 50px; /* Tamanho do planeta 5 */
-    height: 50px;
-    animation: orbit5 11s linear infinite; /* Aumenta a duração */
+    width: 90px; /* Tamanho do planeta 5 */
+    height: 90px;
+    animation: orbit5 9s linear infinite; /* Aumenta a duração */
     transform: translateX(370px);
 }
 
 .planet6 {
-    width: 55px; /* Tamanho do planeta 6 */
-    height: 55px;
-    animation: orbit6 13s linear infinite; /* Aumenta a duração */
+    width: 80px; /* Tamanho do planeta 6 */
+    height: 80px;
+    animation: orbit6 9s linear infinite; /* Aumenta a duração */
     transform: translateX(430px);
 }
 
 .planet7 {
-    width: 60px; /* Tamanho do planeta 7 */
-    height: 60px;
-    animation: orbit7 15s linear infinite; /* Aumenta a duração */
+    width: 70px; /* Tamanho do planeta 7 */
+    height: 70px;
+    animation: orbit7 11s linear infinite; /* Aumenta a duração */
     transform: translateX(490px);
+}
+
+.planet8 {
+    width: 70px; /* Tamanho do planeta 7 */
+    height: 70px;
+    animation: orbit8 10s linear infinite; /* Aumenta a duração */
+    transform: translateX(530px);
 }
 
 @keyframes orbit1 {
@@ -399,6 +433,11 @@ body{
 @keyframes orbit7 {
     0% { transform: translate(-50%, -50%) rotate(0deg) translateX(420px) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg) translateX(420px) rotate(0deg); }
+}
+
+@keyframes orbit8 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(460px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(460px) rotate(0deg); }
 }
 
 
@@ -447,6 +486,12 @@ body{
 }
 
 .planet7 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet8 img{
     object-fit: cover;
     width: 100%;
     height: 100%;
