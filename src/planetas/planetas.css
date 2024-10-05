@@ -48,7 +48,8 @@ body {
     height: 100px;
     animation: orbit1 30s linear infinite; /* Aumenta a duração */
     max-width: 150px;
-    max-height: 150px;
+    max-height: 150px
+    overflow: hidden;;
 }
 
 .planet2 img{
@@ -57,6 +58,7 @@ body {
     animation: orbit2 8s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    overflow: hidden;
 }
 
 .planet3 img{
@@ -65,6 +67,7 @@ body {
     animation: orbit3 7s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    overflow: hidden;
 }
 
 .planet4 img{
@@ -73,6 +76,7 @@ body {
     animation: orbit4 9s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    overflow: hidden;
 }
 
 .planet5 img{
@@ -81,6 +85,7 @@ body {
     animation: orbit5 11s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    overflow: hidden;
 }
 
 .planet6 img{
@@ -89,6 +94,7 @@ body {
     animation: orbit6 13s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    overflow: hidden;
 }
 
 .planet7 img{
@@ -97,6 +103,7 @@ body {
     animation: orbit7 15s linear infinite; /* Aumenta a duração */
     max-width: 150px;
     max-height: 150px;
+    overflow: hidden;
 }
 
 .info-box {
