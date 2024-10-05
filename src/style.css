@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------- */
+/* CORES GLOBAIS DO SITE */
+/* ----------------------------------------------*/
+
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #ffffff;
+    --color-red01: #d63939;
+
+
+}
+
+/* ---------------------------------------------- */
+
+/* ----------------------------------------------*/
+
+
+.page{
+    display: block;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+body{
+    height: 100vw;
+    background-color: #000000;
+}
+
+/* CONFIG CABECALHO */
+.img_logo{
+    width: 250px;
+}
+
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Red hat display', sans-serif;
+}
+
+.header{
+    background-color: var(--color-dark4);
+    box-shadow: 1px 1px 4px var(--color-dark4);
+    height: 56px;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.header .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.header .logo a span{
+    color: #00bf63;
+    transition: all;
+}
+
+.navigation_header{
+    gap: 3em;
+    z-index: 2;
+}
+
+.navigation_header a{
+    text-decoration: none;
+    color: var(--color-purple);
+    font-weight: bold;
+
+}
+
+.active{
+    background-color: var(--color-dark3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn_icon_header{
+    display: none;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    background-color: transparent;
+}
