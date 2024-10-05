@@ -344,6 +344,10 @@ body{
     border-radius: 50%;
 }
 
+.planet img {
+    transition: transform 0.3s ease; /* Suaviza a transição */
+}
+
 .planet1 {
     width: 30px; /* Tamanho do planeta 1 */
     height: 30px;
