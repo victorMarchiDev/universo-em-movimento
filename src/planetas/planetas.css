@@ -80,6 +80,23 @@ body {
     animation: orbit7 15s linear infinite; /* Aumenta a duração */
 }
 
+.info-box {
+    display: none; /* Inicialmente escondido */
+    position: fixed; /* Fixar a caixa no canto esquerdo */
+    left: 20px; /* Alinhar à esquerda */
+    top: 15vh; /* Ajuste para centralizar verticalmente, se necessário */
+    height: 70vh; /* Ocupa 80% da altura da viewport */
+    width: 300px; /* Defina uma largura fixa ou proporcional */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    opacity: 0; /* Inicialmente invisível */
+    pointer-events: none; /* Não captura cliques */
+    overflow-y: auto; /* Permitir rolagem, se necessário */
+}
+
+
 @keyframes orbit1 {
     0% { transform: translate(-50%, -50%) rotate(0deg) translateX(70px) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg) translateX(70px) rotate(0deg); }
