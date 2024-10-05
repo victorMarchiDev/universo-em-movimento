@@ -3,13 +3,14 @@ const infoBoxLeft = document.querySelector('.info-box-left');
 const infoBoxRight = document.querySelector('.info-box-right');
 
 const planetNames = {
-    planet1: 'Planeta 1',
-    planet2: 'Planeta 2',
-    planet3: 'Planeta 3',
-    planet4: 'Planeta 4',
-    planet5: 'Planeta 5',
-    planet6: 'Planeta 6',
-    planet7: 'Planeta 7'
+    planet1: 'Mercúrio',
+    planet2: 'Vênus'   ,
+    planet3: 'Terra'   ,
+    planet4: 'Marte'   ,
+    planet5: 'Júpiter' ,
+    planet6: 'Saturno' ,
+    planet7: 'Urano'   ,
+    planet8: 'Netuno'
 };
 
 planets.forEach(planet => {

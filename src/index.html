@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/planetas/planetas.css">
+    <link rel="icon" href="planetas/imgs/logoo.png" sizes="192x192" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="page" id="page">
         <!--HEADER-->
-        <reader class="header" id="header">
+        <header class="header" id="header">
             <button onclick="toggleSidebar()" class="btn_icon_header">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
@@ -28,23 +30,28 @@
                 <a href="#">Sobre</a>
                 <a href="#">NewsLetter</a>
             </div>
-        </reader>
+        </header>
 
         <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
             <section class="HubExplorar" id="HubExplorar">
                 <section class="info" id="info">
-                        <div class="solar-system" id="solar-system">
-                            <div class="sun" id="sun"><img src="./planetas/imgs/sol99.png" alt=""></div>
-                            <div class="planet planet1" id="planet planet1"><img src="./planetas/imgs/55.png" alt=""></div>
-                            <div class="planet planet2" id="planet planet2"><img src="./planetas/imgs/11.png" alt=""></div>
-                            <div class="planet planet3" id="planet planet3"><img src="./planetas/imgs/22.png" alt=""></div>
-                            <div class="planet planet4" id="planet planet4"><img src="./planetas/imgs/33.png" alt=""></div>
-                            <div class="planet planet5" id="planet planet5"><img src="./planetas/imgs/44.png" alt=""></div>
-                            <div class="planet planet6" id="planet planet6"><img src="./planetas/imgs/66.png" alt=""></div>
-                            <div class="planet planet7" id="planet planet7"><img src="./planetas/imgs/77.png" alt=""></div>
-                        </div>
+                    <div class="solar-system">
+                        <div class="sun"><img src="planetas/imgs/sol99.png" alt=""></div>
+                        <div class="planet planet1"><img src="planetas/imgs/11.png" alt=""></div>
+                        <div class="planet planet2"><img src="planetas/imgs/22.png" alt=""></div>
+                        <div class="planet planet3"><img src="planetas/imgs/55.png" alt=""></div>
+                        <div class="planet planet4"><img src="planetas/imgs/44.png" alt=""></div>
+                        <div class="planet planet5"><img src="planetas/imgs/33.png" alt=""></div>
+                        <div class="planet planet6"><img src="planetas/imgs/88.png" alt=""></div>
+                        <div class="planet planet7"><img src="planetas/imgs/66.png" alt=""></div>
+                        <div class="planet planet8"><img src="planetas/imgs/77.png" alt=""></div>
+                
+                    </div>
                 </section>
             </section>
+
+            <div class="info-box-left"></div>
+            <div class="info-box-right"></div>
 
             <section class="about" id="about">
                 <div class="HubAbout" id="HubAbout">
@@ -63,11 +70,9 @@
         </div>
     </div>
 
-    <div class="info-box-left"></div>
-    <div class="info-box-right"></div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="planetas/planetas.js"></script>
     
 </body>
 </html>
