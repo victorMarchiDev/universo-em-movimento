@@ -306,7 +306,6 @@ body{
     left: 50%;
     width: 60px; /* Tamanho do sol */
     height: 60px; /* Tamanho do sol */
-    background-color: yellow;
     border-radius: 50%;
     transform: translate(-50%, -50%);
 }
@@ -321,7 +320,6 @@ body{
 .planet1 {
     width: 30px; /* Tamanho do planeta 1 */
     height: 30px;
-    background-color: blue;
     animation: orbit1 6s linear infinite; /* Aumenta a duração */
     transform: translateX(120px);
 }
@@ -329,7 +327,6 @@ body{
 .planet2 {
     width: 35px; /* Tamanho do planeta 2 */
     height: 35px;
-    background-color: green;
     animation: orbit2 8s linear infinite; /* Aumenta a duração */
     transform: translateX(190px);
 }
@@ -337,7 +334,6 @@ body{
 .planet3 {
     width: 40px; /* Tamanho do planeta 3 */
     height: 40px;
-    background-color: red;
     animation: orbit3 7s linear infinite; /* Aumenta a duração */
     transform: translateX(250px);
 }
@@ -345,7 +341,6 @@ body{
 .planet4 {
     width: 45px; /* Tamanho do planeta 4 */
     height: 45px;
-    background-color: orange;
     animation: orbit4 9s linear infinite; /* Aumenta a duração */
     transform: translateX(310px);
 }
@@ -353,7 +348,6 @@ body{
 .planet5 {
     width: 50px; /* Tamanho do planeta 5 */
     height: 50px;
-    background-color: purple;
     animation: orbit5 11s linear infinite; /* Aumenta a duração */
     transform: translateX(370px);
 }
@@ -361,7 +355,6 @@ body{
 .planet6 {
     width: 55px; /* Tamanho do planeta 6 */
     height: 55px;
-    background-color: pink;
     animation: orbit6 13s linear infinite; /* Aumenta a duração */
     transform: translateX(430px);
 }
@@ -369,7 +362,6 @@ body{
 .planet7 {
     width: 60px; /* Tamanho do planeta 7 */
     height: 60px;
-    background-color: cyan;
     animation: orbit7 15s linear infinite; /* Aumenta a duração */
     transform: translateX(490px);
 }
@@ -409,7 +401,61 @@ body{
     100% { transform: translate(-50%, -50%) rotate(360deg) translateX(420px) rotate(0deg); }
 }
 
+
+/* IMAGENS DOS OBJETOS*/
+
+.sun img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet5 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet6 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.planet7 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
 /* ---------------------------------------------- */
 
 /* ----------------------------------------------*/
+
+
 
