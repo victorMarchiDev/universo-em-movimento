@@ -23,5 +23,4 @@ Contribuições são bem-vindas! Se você deseja ajudar a melhorar o projeto, si
 - HTML 🌐
 - CSS 🎨
 - JavaScript 💻
-- PHP 🐘
 - Git 📌
