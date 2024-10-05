@@ -3,8 +3,23 @@ body {
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center; /* Alinha verticalmente ao centro */
     height: 100vh;
-    background-color: #000;
+    background-color: #000; /* Fundo preto para sobrepor a imagem */
     overflow: hidden;
+    position: relative; /* Para o pseudo-elemento ser posicionado corretamente */
+}
+
+/* Pseudo-elemento para a imagem de fundo com opacidade */
+body::before {
+    content: "";
+    position: absolute; /* Posiciona o pseudo-elemento em relação ao body */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://images8.alphacoders.com/528/thumb-1920-528619.jpg);
+    background-size: cover; /* Cobre toda a área do body */
+    opacity: 0.5; /* Define a opacidade da imagem (0 a 1) */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo do body */
 }
 
 .solar-system {
@@ -41,8 +56,8 @@ body {
     height: 100px;
     animation: orbit1 30s linear infinite; /* Aumenta a duração */
     max-width: 150px;
-    max-height: 150px
-    overflow: hidden;;
+    max-height: 150px;
+    overflow: hidden;
 }
 
 .planet2 img{
@@ -97,6 +112,27 @@ body {
     max-width: 150px;
     max-height: 150px;
     overflow: hidden;
+}
+
+/* -------------------------------------*/
+
+.planet img {
+    transition: transform 0.3s ease; /* Suaviza a transição */
+}
+
+/* Efeito de aumento quando o mouse passa por cima de cada planeta */
+.planet1 img:hover,
+.planet2 img:hover,
+.planet3 img:hover,
+.planet4 img:hover,
+.planet5 img:hover,
+.planet6 img:hover,
+.planet7 img:hover {
+    transform: scale(5.5); /* Aumenta o tamanho em 1.5 vezes */
+    width: 1400px;
+    height: 1400px;
+    cursor: pointer;
+    opacity: 50.0%;
 }
 
 .info-box-left {
