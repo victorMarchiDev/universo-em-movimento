@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.solar-system {
+    position: relative;
+    width: 600px; /* Aumenta a largura do sistema solar */
+    height: 600px; /* Aumenta a altura do sistema solar */
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px; /* Tamanho do sol */
+    height: 60px; /* Tamanho do sol */
+    background-color: yellow;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.planet1 {
+    width: 30px; /* Tamanho do planeta 1 */
+    height: 30px;
+    background-color: blue;
+    animation: orbit1 6s linear infinite; /* Aumenta a duração */
+}
+
+.planet2 {
+    width: 35px; /* Tamanho do planeta 2 */
+    height: 35px;
+    background-color: green;
+    animation: orbit2 8s linear infinite; /* Aumenta a duração */
+}
+
+.planet3 {
+    width: 40px; /* Tamanho do planeta 3 */
+    height: 40px;
+    background-color: red;
+    animation: orbit3 7s linear infinite; /* Aumenta a duração */
+}
+
+.planet4 {
+    width: 45px; /* Tamanho do planeta 4 */
+    height: 45px;
+    background-color: orange;
+    animation: orbit4 9s linear infinite; /* Aumenta a duração */
+}
+
+.planet5 {
+    width: 50px; /* Tamanho do planeta 5 */
+    height: 50px;
+    background-color: purple;
+    animation: orbit5 11s linear infinite; /* Aumenta a duração */
+}
+
+.planet6 {
+    width: 55px; /* Tamanho do planeta 6 */
+    height: 55px;
+    background-color: pink;
+    animation: orbit6 13s linear infinite; /* Aumenta a duração */
+}
+
+.planet7 {
+    width: 60px; /* Tamanho do planeta 7 */
+    height: 60px;
+    background-color: cyan;
+    animation: orbit7 15s linear infinite; /* Aumenta a duração */
+}
+
+@keyframes orbit1 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(70px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(70px) rotate(0deg); }
+}
+
+@keyframes orbit2 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(100px) rotate(0deg); }
+}
+
+@keyframes orbit3 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(130px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(130px) rotate(0deg); }
+}
+
+@keyframes orbit4 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(160px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(160px) rotate(0deg); }
+}
+
+@keyframes orbit5 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(240px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(240px) rotate(0deg); }
+}
+
+@keyframes orbit6 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(300px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(300px) rotate(0deg); }
+}
+
+@keyframes orbit7 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(380px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(380px) rotate(0deg); }
+}
