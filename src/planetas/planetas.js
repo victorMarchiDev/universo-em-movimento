@@ -13,7 +13,7 @@ const planetNames = {
 };
 
 planets.forEach(planet => {
-    planet.addEventListener('mouseover', () => {
+    planet.addEventListener('click', () => {
         const planetClass = planet.classList[1]; // Usa a classe do planeta para o nome
         const planetName = planetNames[planetClass] || planetClass; // Usa o nome mapeado ou a classe
         infoBoxLeft.textContent = `Você passou o mouse sobre ${planetName}`;
@@ -27,11 +27,11 @@ planets.forEach(planet => {
         setTimeout(() => { infoBoxRight.style.opacity = 1; }, 0); // Inicia a transição após exibir
     });
 
-    planet.addEventListener('mouseout', () => {
-        infoBoxLeft.style.opacity = 0; // Inicia a transição de desaparecimento
-        setTimeout(() => { infoBoxLeft.style.display = 'none'; }, 200); // Esconde após a transição
+    // planet.addEventListener('mouseout', () => {
+    //    infoBoxLeft.style.opacity = 0; // Inicia a transição de desaparecimento
+    //    setTimeout(() => { infoBoxLeft.style.display = 'none'; }, 200); // Esconde após a transição
 
-        infoBoxRight.style.opacity = 0; // Inicia a transição de desaparecimento
-        setTimeout(() => { infoBoxRight.style.display = 'none'; }, 200); // Esconde após a transição
-    });
+      //  infoBoxRight.style.opacity = 0; // Inicia a transição de desaparecimento
+       // setTimeout(() => { infoBoxRight.style.display = 'none'; }, 200); // Esconde após a transição
+    //});
 });
