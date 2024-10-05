@@ -176,18 +176,13 @@ body{
     background-size: cover;
     overflow: hidden;
     position: relative;
-    height: 950px;
+    height: 1000px;
     color: #fff;
     justify-content: center;
     align-items: center;
     font-family: 'Red hat display', sans-serif;
 }
 
-.solar-system{
-    max-height: 100%;
-    max-height: 100%;
-
-}
 .info {
     display: flex;
     justify-content: center;
@@ -308,23 +303,6 @@ body{
 
 .right {
     padding-left: 20px;
-}
-
-/* ---------------------------------------------- */
-
-/* ----------------------------------------------*/
-
-
-
-/* ---------------------------------------------- */
-/* PLANETAS */
-/* ----------------------------------------------*/
-
-.solar-system {
-    display: flexbox;
-    position: relative;
-    width: 600px; /* Aumenta a largura do sistema solar */
-    height: 800px; /* Aumenta a altura do sistema solar */
 }
 
 .sun {
@@ -501,10 +479,70 @@ body{
     height: 100%;
 }
 
+/* Efeito de aumento quando o mouse passa por cima de cada planeta */
+.planet1 img:hover,
+.planet2 img:hover,
+.planet3 img:hover,
+.planet4 img:hover,
+.planet5 img:hover,
+.planet6 img:hover,
+.planet7 img:hover,
+.planet8 img:hover {
+    transform: scale(2.0); /* Aumenta o tamanho em 1.5 vezes */
+    cursor: pointer;
+    opacity: 50.0%;
+    cursor: pointer;
+}
 
-/* ---------------------------------------------- */
+.info-box-left {
+    display: none; /* Inicialmente escondido */
+    position: fixed; /* Fixar a caixa no canto esquerdo */
+    left: 20px; /* Alinhar à esquerda */
+    top: 15vh; /* Ajuste para centralizar verticalmente, se necessário */
+    height: 70vh; /* Ocupa 80% da altura da viewport */
+    width: 300px; /* Defina uma largura fixa ou proporcional */
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 30px 0px 0px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    opacity: 0; /* Inicialmente invisível */
+    overflow-y: auto; /* Permitir rolagem, se necessário */
+}
 
-/* ----------------------------------------------*/
+.info-box-right {
+    display: none; /* Inicialmente escondido */
+    position: fixed; /* Fixar a caixa no canto esquerdo */
+    right: 20px; /* Alinhar à esquerda */
+    top: 15vh; /* Ajuste para centralizar verticalmente, se necessário */
+    height: 70vh; /* Ocupa 80% da altura da viewport */
+    width: 300px; /* Defina uma largura fixa ou proporcional */
+    background: rgba(255, 255, 255, 0); /* Fundo branco com transparência */
+    opacity: 0; /* Inicialmente invisível */
+    pointer-events: none; /* Não captura cliques */
+    overflow-y: auto; /* Permitir rolagem, se necessário */
+}
 
+.info-box-left {
+    overflow-y: auto; /* Para permitir rolagem vertical */
+    max-height: 400px; /* Defina a altura máxima que você desejar */
+    scrollbar-width: thin; /* Para navegadores Firefox */
+    scrollbar-color: #1c1c1c #f0f0f0; /* Cor da barra de rolagem e do fundo */
+}
 
+/* Para navegadores Webkit (Chrome, Safari) */
+.info-box-left::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
 
+.info-box-left::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Cor do fundo da barra de rolagem */
+}
+
+.info-box-left::-webkit-scrollbar-thumb {
+    background-color: #1c1c1c; /* Cor da barra de rolagem */
+    border-radius: 10px; /* Borda arredondada da barra de rolagem */
+}
+
+.info-box-left::-webkit-scrollbar-thumb:hover {
+    background-color: #1c1c1c; /* Cor da barra de rolagem ao passar o mouse */
+}
